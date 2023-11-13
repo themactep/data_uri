@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "data_uri"
-  s.version     = "0.0.3"
+  s.version     = "0.0.3.1"
   s.author      = "Donald Ball"
   s.email       = "donald.ball@gmail.com"
   s.homepage    = "http://github.com/dball/data_uri"
@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.platform = Gem::Platform::RUBY
   s.has_rdoc = true
-  s.extra_rdoc_files = ["README.rdoc"]
+  s.extra_rdoc_files = ["README.md"]
 
   s.require_path = 'lib'
   s.files = %w(README.rdoc Rakefile) + Dir.glob("lib/**/*")
